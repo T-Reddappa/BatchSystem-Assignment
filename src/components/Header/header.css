@@ -1,0 +1,44 @@
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 0rem 4rem 0 4rem;
+}
+
+.logo-and-links {
+  display: flex;
+}
+.logo {
+  margin-right: 1rem;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.logo-and-links div {
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.home {
+  color: #ff5555;
+
+  margin-left: 2rem;
+}
+.home,
+.about,
+.pricing,
+.features {
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  height: 2rem;
+  padding: 0.3rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

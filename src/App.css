@@ -1,5 +1,15 @@
+:root {
+  --primary-color: #ff5555;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
+  padding: 1rem 0rem;
 }
 
 .App-logo {

@@ -1,0 +1,84 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  padding: 0 4rem;
+  margin-top: 2rem;
+}
+
+li {
+  list-style: none;
+  padding: 0.4rem 0;
+}
+
+.footer-container > div {
+  text-align: start;
+}
+
+.input-and-subscribe {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  /* border: 1px solid black; */
+}
+
+.email-input {
+  width: 5rem;
+  color: gray;
+  outline: none;
+  flex-grow: 1;
+}
+
+.email-input,
+.subscribe-btn {
+  height: 100%;
+  font-size: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.subscribe-btn {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+.bottom-line {
+  border: 2px solid lightgray;
+  margin: 2rem 4rem;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .footer-container > div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .input-and-subscribe {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .email-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}

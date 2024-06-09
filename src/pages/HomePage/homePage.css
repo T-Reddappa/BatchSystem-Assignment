@@ -1,0 +1,271 @@
+.home-container {
+  padding: 0 4rem;
+}
+
+.top-container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+.first-blur-background {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  z-index: -1;
+  left: 3rem;
+}
+
+.top-left-container {
+  /* border: 1px solid black; */
+  padding-top: 5rem;
+  flex: 50%;
+  text-align: start;
+  text-transform: capitalize;
+  align-items: end;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: -0.5;
+}
+
+.top-text {
+  font-weight: bold;
+  color: gray;
+  margin: 1rem 0;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.start-btn {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.watch-video-btn {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.start-btn,
+.watch-video-btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+.top-left-image {
+  width: 100%;
+}
+
+.top-right-container {
+  flex: 50%;
+  /* position: relative; */
+  /* border: 1px solid black; */
+}
+
+.top-right-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* FEATURES CONTAINER STYLES */
+
+.features-container {
+  display: flex;
+  align-items: center;
+}
+
+.features-container-left {
+  flex: 50%;
+}
+.features-container-left-img {
+  width: 100%;
+  object-fit: cover;
+}
+.features-container-right {
+  flex: 50%;
+  text-align: start;
+}
+.features-header {
+  margin-bottom: 1rem;
+}
+
+.section-header {
+  color: var(--primary-color);
+}
+
+.section-text {
+  color: #7f7f7f;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.advantages-top-container {
+  display: flex;
+  align-items: center;
+}
+.advantages-container-top-left {
+  text-align: start;
+  flex: 50%;
+}
+
+.advantages-container-top-right {
+  flex: 50%;
+}
+
+.advantages-top-right-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.notification {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.advantages-botttom-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.advantages-bottom-left,
+.advantages-bottom-right {
+  flex: 50%;
+}
+
+.advantages-bottom-left-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #ff5555;
+  border-radius: 50%;
+}
+
+.advantages-bottom-right {
+  text-align: start;
+}
+.advntg-section-header {
+  display: flex;
+  align-items: center;
+}
+
+.testimonal-container {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid brown; */
+}
+
+.testimonal-left {
+  flex: 50%;
+  /* border: 1px solid red; */
+}
+
+.testimonal-right {
+  flex: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonal-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.testimonal-img {
+  /* width: 558px;
+  height: 660px; */
+  width: 100%;
+  object-fit: contain;
+}
+
+.faq-container {
+  text-align: start;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+}
+
+.faq-grid > div {
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.bottom-banner {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid black; */
+
+  background-image: url(./banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-section-text {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 7rem;
+  text-align: start;
+}
+
+.banner-header {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.banner-text {
+  color: white;
+}
+
+.banner-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.colored {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
